@@ -23,3 +23,9 @@
     start_page('Test');
     end_page();
 ?>
+
+<?php
+    echo date('l F d, Y');
+    $jourEng = date('l F d, Y');
+    $jourFr = date('d/m/Y', strtotime('2020-04-01'));
+?>
