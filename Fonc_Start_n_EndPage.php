@@ -7,7 +7,6 @@
         <title><?php echo $title; ?></title>
     </head>
     <body>
-        <hr/><br/><strong>Test</strong><br/><hr/>
     <?php
     }
 
