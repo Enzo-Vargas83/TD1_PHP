@@ -26,9 +26,9 @@
 
 <?php
     //echo date('l F d, Y');
-    $jourEng = date('F l d, Y');
+    $jourEng = date('F d, Y');
     $jourFr = date('d/m/Y', strtotime('2020-04-01'));
-    echo '$jourFr </br>';
+    echo "$jourFr </br>";
     echo $jourEng;
 
 ?>
