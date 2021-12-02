@@ -1,4 +1,4 @@
-<?php include "start_end.php"?>
+<?php include "Fonc_Start_n_EndPage.php"?>
 <?php
 start_page("Calculator");
 ?>
