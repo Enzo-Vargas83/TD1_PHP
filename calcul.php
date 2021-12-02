@@ -3,15 +3,15 @@
 start_page('Calcul');
 ?>
 <?php
-$op1 = $_POST['op1'];
-$op2 = $_POST['op2'];
-$op = $_POST['op'];
+$op1 = $_GET['op1'];
+$op2 = $_GET['op2'];
+$op = $_GET['op'];
 $action = $_GET['action']
 ?>
 <?php
 if('*' == $action)
 {
-    echo '<br><strong>$op1 * $op2 =</strong>' .$op1 * $op2 ;
+
 }
 elseif('+' == $op)
 {
