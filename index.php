@@ -15,7 +15,7 @@ $operateurs = '*+-/';
                 echo '<input ';
                 if($cpt == 0)
                 { echo 'checked="checked" '; }
-                echo 'type="submit" name="action" value="' . $operateurs[$cpt] . '"/>' . $operateurs[$cpt] . ' <br/>' . "\n";
+                echo 'type="submit" name="action" value="' . $operateurs[$cpt] . '"/>';
             }
             ?>
             <!--        <input checked="checked" type="radio" name="op" value="*"/>*<br/>-->
