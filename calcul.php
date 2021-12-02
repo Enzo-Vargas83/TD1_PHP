@@ -10,7 +10,7 @@ $action = $_GET['action']
 <?php
 if('*' == $action)
 {
-    echo "<br><strong>$op1 + $op2 = </strong>" .$op1 * $op2 ;
+    echo "<br><strong>$op1 * $op2 = </strong>" .$op1 * $op2 ;
 }
 elseif('+' == $action)
 {
