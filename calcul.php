@@ -11,11 +11,11 @@ $action = $_POST['action']
 <?php
 if('*' == $op)
 {
-    echo "<br><strong>$op1 * $op2 = </strong>";
+    echo "<br><strong>$op1 * $op2 =</strong>" .$op1 * $op2 ;
 }
 elseif('+' == $op)
 {
-    echo "<br><strong>$op1 + $op2 = </strong>";
+    echo "<br><strong>$op1 + $op2 = </strong>" .$op1 * $op2 ;
 }
 else
 {
