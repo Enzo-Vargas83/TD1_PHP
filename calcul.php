@@ -1,41 +1,26 @@
+<?php include "Fonc_Start_n_EndPage.php.php"?>
 <?php
-    include "index.php";
-    include "Fonc_Start_n_EndPage.php";
+start_page('Calcul');
 ?>
-
 <?php
-    start_page("calcul");
+$op1 = $_POST['op1'];
+$op2 = $_POST['op2'];
+$op = $_POST['op'];
+$action = $_POST['action']
 ?>
-
-<?php
-    $op1 = $_POST['op1'];
-    $op2 = $_POST['op2'];
-    $op = $_POST['op'];
-?>
-
 <?php
 if('*' == $op)
 {
-    echo "$op1 * $op2 =";
+    echo "<br><strong>$op1 * $op2 = </strong>";
 }
 elseif('+' == $op)
 {
-    echo "$op1 + $op2 =";
+    echo "<br><strong>$op1 + $op2 = </strong>";
 }
 else
 {
     echo '<br/><strong>opérateur ' . $op . ' non géré </strong>';
 }
 ?>
-
 <?php
-    start_page("calcul");
-?>
-
-<?php
-    $operateurs = '*+-/';
-?>
-
-<?php
-    end_page();
-?>
+end_page();
