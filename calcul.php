@@ -1,5 +1,5 @@
 <?php
-    include ("calculator.php");
+    include ("index.php");
     include ("Fonc_Start_n_EndPage.php");
 ?>
 
