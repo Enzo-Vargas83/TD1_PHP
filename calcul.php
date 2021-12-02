@@ -1,6 +1,6 @@
 <?php
-    include ("index.php");
-    include ("Fonc_Start_n_EndPage.php");
+    include "index.php";
+    include "Fonc_Start_n_EndPage.php";
 ?>
 
 <?php
