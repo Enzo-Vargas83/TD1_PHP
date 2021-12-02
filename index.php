@@ -5,7 +5,7 @@ start_page("Calculator");
 <?php
 $operateurs = '*+-/';
 ?>
-    <form action="calcul.php" method="post">
+    <form action="calcul.php" method="GET">
         <label>
             <input type="text" name="op2"><br>
             <input type="text" name="op1"><br>

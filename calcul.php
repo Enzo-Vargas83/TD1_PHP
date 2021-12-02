@@ -6,14 +6,14 @@ start_page('Calcul');
 $op1 = $_POST['op1'];
 $op2 = $_POST['op2'];
 $op = $_POST['op'];
-$action = $_POST['action']
+$action = $_GET['action']
 ?>
 <?php
 if('*' == $action)
 {
     echo '<br><strong>$op1 * $op2 =</strong>' .$op1 * $op2 ;
 }
-elseif('+' == $action)
+elseif('+' == $op)
 {
     echo "<br><strong>$op1 + $op2 = </strong>" .$op1 * $op2 ;
 }
