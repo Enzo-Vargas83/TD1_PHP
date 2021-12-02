@@ -9,11 +9,11 @@ $op = $_POST['op'];
 $action = $_POST['action']
 ?>
 <?php
-if('*' == $op)
+if('*' == $action)
 {
-    echo "<br><strong>$op1 * $op2 =</strong>" .$op1 * $op2 ;
+    echo '<br><strong>$op1 * $op2 =</strong>' .$op1 * $op2 ;
 }
-elseif('+' == $op)
+elseif('+' == $action)
 {
     echo "<br><strong>$op1 + $op2 = </strong>" .$op1 * $op2 ;
 }
@@ -24,3 +24,4 @@ else
 ?>
 <?php
 end_page();
+?>
